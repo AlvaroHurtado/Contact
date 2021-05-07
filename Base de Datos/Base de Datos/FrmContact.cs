@@ -51,8 +51,7 @@ namespace Base_de_Datos
 
         private void btnDelete_Click(object sender, System.EventArgs e)
         {
-            if (MetroFramework.MetroMessageBox.Show(this, "¿Quieres eliminar al contacto?") ==
-DialogResult.OK)
+            if (MetroFramework.MetroMessageBox.Show(this, "¿Quieres eliminar al contacto?") == DialogResult.OK)
             {
                 using (DataContext dataContext = new DataContext())
                 {
@@ -111,9 +110,9 @@ DialogResult.OK)
                 if (ofd.ShowDialog() == DialogResult.OK)
                 {
                     pctPhoto.Image = Image.FromFile(ofd.FileName);
-                    Contact student = contactBindingSource.Current as Contact;
-                    if (student != null)
-                        student.Photo = ofd.FileName;
+                    Contact contact = contactBindingSource.Current as Contact;
+                    if (contact != null)
+                        contact.Photo = ofd.FileName;
                 }
             }
         }

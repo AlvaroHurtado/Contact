@@ -16,7 +16,7 @@ namespace Base_de_Datos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmContact());
+            Application.Run(new frmCoach());
         }
     }
 }
