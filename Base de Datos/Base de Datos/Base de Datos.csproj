@@ -93,27 +93,6 @@
     <Compile Include="frmStudent.Designer.cs">
       <DependentUpon>frmStudent.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202104220251008_Primero.cs" />
-    <Compile Include="Migrations\202104220251008_Primero.designer.cs">
-      <DependentUpon>202104220251008_Primero.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202104220309007_Secundaria.cs" />
-    <Compile Include="Migrations\202104220309007_Secundaria.designer.cs">
-      <DependentUpon>202104220309007_Secundaria.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202105041720549_Tercera.cs" />
-    <Compile Include="Migrations\202105041720549_Tercera.designer.cs">
-      <DependentUpon>202105041720549_Tercera.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202105071656482_Student.cs" />
-    <Compile Include="Migrations\202105071656482_Student.designer.cs">
-      <DependentUpon>202105071656482_Student.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202105071724183_Coach.cs" />
-    <Compile Include="Migrations\202105071724183_Coach.designer.cs">
-      <DependentUpon>202105071724183_Coach.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmCoach.resx">
@@ -124,21 +103,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmStudent.resx">
       <DependentUpon>frmStudent.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202104220251008_Primero.resx">
-      <DependentUpon>202104220251008_Primero.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202104220309007_Secundaria.resx">
-      <DependentUpon>202104220309007_Secundaria.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202105041720549_Tercera.resx">
-      <DependentUpon>202105041720549_Tercera.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202105071656482_Student.resx">
-      <DependentUpon>202105071656482_Student.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202105071724183_Coach.resx">
-      <DependentUpon>202105071724183_Coach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
