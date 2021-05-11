@@ -95,6 +95,12 @@
     <Compile Include="frmCoordinator.Designer.cs">
       <DependentUpon>frmCoordinator.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMajor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMajor.Designer.cs">
+      <DependentUpon>frmMajor.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmStudent.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,6 +127,9 @@
     <EmbeddedResource Include="frmCoordinator.resx">
       <DependentUpon>frmCoordinator.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmMajor.resx">
+      <DependentUpon>frmMajor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmStudent.resx">
       <DependentUpon>frmStudent.cs</DependentUpon>
     </EmbeddedResource>
@@ -143,6 +152,7 @@
     <None Include="Properties\DataSources\Base_de_Datos.Entidades.Coach.datasource" />
     <None Include="Properties\DataSources\Base_de_Datos.Entidades.Contact.datasource" />
     <None Include="Properties\DataSources\Base_de_Datos.Entidades.Coordinator.datasource" />
+    <None Include="Properties\DataSources\Base_de_Datos.Entidades.Major.datasource" />
     <None Include="Properties\DataSources\Base_de_Datos.Entidades.Student.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

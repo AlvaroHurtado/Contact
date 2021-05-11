@@ -1,6 +1,6 @@
 ﻿namespace Base_de_Datos
 {
-    partial class frmCoordinator
+    partial class frmMajor
     {
         /// <summary>
         /// Required designer variable.
@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnSave = new MetroFramework.Controls.MetroButton();
             this.btnDelete = new MetroFramework.Controls.MetroButton();
             this.btnCancel = new MetroFramework.Controls.MetroButton();
             this.btnEdit = new MetroFramework.Controls.MetroButton();
             this.btnAdd = new MetroFramework.Controls.MetroButton();
-            this.pnlCoordinator = new MetroFramework.Controls.MetroPanel();
+            this.pnlMajor = new MetroFramework.Controls.MetroPanel();
             this.txtEmail = new MetroFramework.Controls.MetroTextBox();
             this.lblEmail = new MetroFramework.Drawing.Html.HtmlLabel();
             this.btnSearch = new MetroFramework.Controls.MetroButton();
@@ -50,94 +50,100 @@
             this.lblFirstName = new MetroFramework.Drawing.Html.HtmlLabel();
             this.lblId = new MetroFramework.Drawing.Html.HtmlLabel();
             this.pctPhoto = new System.Windows.Forms.PictureBox();
-            this.grdCoordinator = new MetroFramework.Controls.MetroGrid();
-            this.coordinatorBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.grdMajor = new MetroFramework.Controls.MetroGrid();
+            this.majorBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.txtDescription = new MetroFramework.Controls.MetroTextBox();
+            this.lblDescription = new MetroFramework.Drawing.Html.HtmlLabel();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fullNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.firstNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lastNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cellNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.photoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pnlCoordinator.SuspendLayout();
+            this.descriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pnlMajor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctPhoto)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdCoordinator)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.coordinatorBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdMajor)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.majorBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(677, 226);
+            this.btnSave.Location = new System.Drawing.Point(677, 223);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(100, 23);
-            this.btnSave.TabIndex = 25;
+            this.btnSave.TabIndex = 32;
             this.btnSave.Text = "Save";
             this.btnSave.UseSelectable = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(521, 226);
+            this.btnDelete.Location = new System.Drawing.Point(521, 223);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(100, 23);
-            this.btnDelete.TabIndex = 24;
+            this.btnDelete.TabIndex = 31;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseSelectable = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(354, 226);
+            this.btnCancel.Location = new System.Drawing.Point(354, 223);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(100, 23);
-            this.btnCancel.TabIndex = 23;
+            this.btnCancel.TabIndex = 30;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseSelectable = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(187, 226);
+            this.btnEdit.Location = new System.Drawing.Point(187, 223);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(100, 23);
-            this.btnEdit.TabIndex = 22;
+            this.btnEdit.TabIndex = 29;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseSelectable = true;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(23, 226);
+            this.btnAdd.Location = new System.Drawing.Point(23, 223);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(100, 23);
-            this.btnAdd.TabIndex = 21;
+            this.btnAdd.TabIndex = 28;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseSelectable = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
-            // pnlCoordinator
+            // pnlMajor
             // 
-            this.pnlCoordinator.Controls.Add(this.txtEmail);
-            this.pnlCoordinator.Controls.Add(this.lblEmail);
-            this.pnlCoordinator.Controls.Add(this.btnSearch);
-            this.pnlCoordinator.Controls.Add(this.txtCellNumber);
-            this.pnlCoordinator.Controls.Add(this.txtLastName);
-            this.pnlCoordinator.Controls.Add(this.txtFirstName);
-            this.pnlCoordinator.Controls.Add(this.txtId);
-            this.pnlCoordinator.Controls.Add(this.lblCellNumber);
-            this.pnlCoordinator.Controls.Add(this.lblLastName);
-            this.pnlCoordinator.Controls.Add(this.lblFirstName);
-            this.pnlCoordinator.Controls.Add(this.lblId);
-            this.pnlCoordinator.Controls.Add(this.pctPhoto);
-            this.pnlCoordinator.HorizontalScrollbarBarColor = true;
-            this.pnlCoordinator.HorizontalScrollbarHighlightOnWheel = false;
-            this.pnlCoordinator.HorizontalScrollbarSize = 10;
-            this.pnlCoordinator.Location = new System.Drawing.Point(23, 61);
-            this.pnlCoordinator.Name = "pnlCoordinator";
-            this.pnlCoordinator.Size = new System.Drawing.Size(754, 159);
-            this.pnlCoordinator.TabIndex = 20;
-            this.pnlCoordinator.VerticalScrollbarBarColor = true;
-            this.pnlCoordinator.VerticalScrollbarHighlightOnWheel = false;
-            this.pnlCoordinator.VerticalScrollbarSize = 10;
+            this.pnlMajor.Controls.Add(this.lblDescription);
+            this.pnlMajor.Controls.Add(this.txtDescription);
+            this.pnlMajor.Controls.Add(this.txtEmail);
+            this.pnlMajor.Controls.Add(this.lblEmail);
+            this.pnlMajor.Controls.Add(this.btnSearch);
+            this.pnlMajor.Controls.Add(this.txtCellNumber);
+            this.pnlMajor.Controls.Add(this.txtLastName);
+            this.pnlMajor.Controls.Add(this.txtFirstName);
+            this.pnlMajor.Controls.Add(this.txtId);
+            this.pnlMajor.Controls.Add(this.lblCellNumber);
+            this.pnlMajor.Controls.Add(this.lblLastName);
+            this.pnlMajor.Controls.Add(this.lblFirstName);
+            this.pnlMajor.Controls.Add(this.lblId);
+            this.pnlMajor.Controls.Add(this.pctPhoto);
+            this.pnlMajor.HorizontalScrollbarBarColor = true;
+            this.pnlMajor.HorizontalScrollbarHighlightOnWheel = false;
+            this.pnlMajor.HorizontalScrollbarSize = 10;
+            this.pnlMajor.Location = new System.Drawing.Point(23, 58);
+            this.pnlMajor.Name = "pnlMajor";
+            this.pnlMajor.Size = new System.Drawing.Size(754, 159);
+            this.pnlMajor.TabIndex = 27;
+            this.pnlMajor.VerticalScrollbarBarColor = true;
+            this.pnlMajor.VerticalScrollbarHighlightOnWheel = false;
+            this.pnlMajor.VerticalScrollbarSize = 10;
             // 
             // txtEmail
             // 
@@ -153,7 +159,7 @@
             this.txtEmail.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtEmail.CustomButton.UseSelectable = true;
             this.txtEmail.CustomButton.Visible = false;
-            this.txtEmail.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.coordinatorBindingSource, "Email", true));
+            this.txtEmail.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.majorBindingSource, "Email", true));
             this.txtEmail.Lines = new string[0];
             this.txtEmail.Location = new System.Drawing.Point(513, 3);
             this.txtEmail.MaxLength = 32767;
@@ -206,7 +212,7 @@
             this.txtCellNumber.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtCellNumber.CustomButton.UseSelectable = true;
             this.txtCellNumber.CustomButton.Visible = false;
-            this.txtCellNumber.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.coordinatorBindingSource, "CellNumber", true));
+            this.txtCellNumber.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.majorBindingSource, "CellNumber", true));
             this.txtCellNumber.Lines = new string[0];
             this.txtCellNumber.Location = new System.Drawing.Point(217, 91);
             this.txtCellNumber.MaxLength = 32767;
@@ -237,7 +243,7 @@
             this.txtLastName.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtLastName.CustomButton.UseSelectable = true;
             this.txtLastName.CustomButton.Visible = false;
-            this.txtLastName.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.coordinatorBindingSource, "LastName", true));
+            this.txtLastName.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.majorBindingSource, "LastName", true));
             this.txtLastName.Lines = new string[0];
             this.txtLastName.Location = new System.Drawing.Point(217, 62);
             this.txtLastName.MaxLength = 32767;
@@ -268,7 +274,7 @@
             this.txtFirstName.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtFirstName.CustomButton.UseSelectable = true;
             this.txtFirstName.CustomButton.Visible = false;
-            this.txtFirstName.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.coordinatorBindingSource, "FirstName", true));
+            this.txtFirstName.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.majorBindingSource, "FirstName", true));
             this.txtFirstName.Lines = new string[0];
             this.txtFirstName.Location = new System.Drawing.Point(217, 32);
             this.txtFirstName.MaxLength = 32767;
@@ -299,7 +305,7 @@
             this.txtId.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtId.CustomButton.UseSelectable = true;
             this.txtId.CustomButton.Visible = false;
-            this.txtId.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.coordinatorBindingSource, "Id", true));
+            this.txtId.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.majorBindingSource, "Id", true));
             this.txtId.Lines = new string[0];
             this.txtId.Location = new System.Drawing.Point(217, 3);
             this.txtId.MaxLength = 32767;
@@ -373,62 +379,107 @@
             this.pctPhoto.TabIndex = 2;
             this.pctPhoto.TabStop = false;
             // 
-            // grdCoordinator
+            // grdMajor
             // 
-            this.grdCoordinator.AllowUserToResizeRows = false;
-            this.grdCoordinator.AutoGenerateColumns = false;
-            this.grdCoordinator.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.grdCoordinator.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.grdCoordinator.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            this.grdCoordinator.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdCoordinator.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.grdCoordinator.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdCoordinator.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.grdMajor.AllowUserToResizeRows = false;
+            this.grdMajor.AutoGenerateColumns = false;
+            this.grdMajor.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.grdMajor.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.grdMajor.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.grdMajor.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdMajor.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.grdMajor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdMajor.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.idDataGridViewTextBoxColumn,
+            this.fullNameDataGridViewTextBoxColumn,
             this.firstNameDataGridViewTextBoxColumn,
             this.lastNameDataGridViewTextBoxColumn,
             this.cellNumberDataGridViewTextBoxColumn,
             this.photoDataGridViewTextBoxColumn,
-            this.emailDataGridViewTextBoxColumn});
-            this.grdCoordinator.DataSource = this.coordinatorBindingSource;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grdCoordinator.DefaultCellStyle = dataGridViewCellStyle2;
-            this.grdCoordinator.EnableHeadersVisualStyles = false;
-            this.grdCoordinator.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.grdCoordinator.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.grdCoordinator.Location = new System.Drawing.Point(23, 275);
-            this.grdCoordinator.Name = "grdCoordinator";
-            this.grdCoordinator.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdCoordinator.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.grdCoordinator.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.grdCoordinator.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdCoordinator.Size = new System.Drawing.Size(754, 150);
-            this.grdCoordinator.TabIndex = 19;
-            this.grdCoordinator.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdCoordinator_CellClick);
+            this.emailDataGridViewTextBoxColumn,
+            this.descriptionDataGridViewTextBoxColumn});
+            this.grdMajor.DataSource = this.majorBindingSource;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grdMajor.DefaultCellStyle = dataGridViewCellStyle5;
+            this.grdMajor.EnableHeadersVisualStyles = false;
+            this.grdMajor.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.grdMajor.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.grdMajor.Location = new System.Drawing.Point(23, 272);
+            this.grdMajor.Name = "grdMajor";
+            this.grdMajor.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.grdMajor.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            this.grdMajor.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.grdMajor.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.grdMajor.Size = new System.Drawing.Size(754, 150);
+            this.grdMajor.TabIndex = 26;
+            this.grdMajor.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdMajor_CellClick);
             // 
-            // coordinatorBindingSource
+            // majorBindingSource
             // 
-            this.coordinatorBindingSource.DataSource = typeof(Base_de_Datos.Entidades.Coordinator);
+            this.majorBindingSource.DataSource = typeof(Base_de_Datos.Entidades.Major);
+            // 
+            // txtDescription
+            // 
+            // 
+            // 
+            // 
+            this.txtDescription.CustomButton.Image = null;
+            this.txtDescription.CustomButton.Location = new System.Drawing.Point(150, 1);
+            this.txtDescription.CustomButton.Name = "";
+            this.txtDescription.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.txtDescription.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtDescription.CustomButton.TabIndex = 1;
+            this.txtDescription.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtDescription.CustomButton.UseSelectable = true;
+            this.txtDescription.CustomButton.Visible = false;
+            this.txtDescription.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.majorBindingSource, "Description", true));
+            this.txtDescription.Lines = new string[0];
+            this.txtDescription.Location = new System.Drawing.Point(513, 32);
+            this.txtDescription.MaxLength = 32767;
+            this.txtDescription.Name = "txtDescription";
+            this.txtDescription.PasswordChar = '\0';
+            this.txtDescription.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtDescription.SelectedText = "";
+            this.txtDescription.SelectionLength = 0;
+            this.txtDescription.SelectionStart = 0;
+            this.txtDescription.ShortcutsEnabled = true;
+            this.txtDescription.Size = new System.Drawing.Size(172, 23);
+            this.txtDescription.TabIndex = 16;
+            this.txtDescription.UseSelectable = true;
+            this.txtDescription.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtDescription.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // lblDescription
+            // 
+            this.lblDescription.AutoScroll = true;
+            this.lblDescription.AutoScrollMinSize = new System.Drawing.Size(67, 23);
+            this.lblDescription.AutoSize = false;
+            this.lblDescription.BackColor = System.Drawing.SystemColors.Window;
+            this.lblDescription.Location = new System.Drawing.Point(432, 32);
+            this.lblDescription.Name = "lblDescription";
+            this.lblDescription.Size = new System.Drawing.Size(75, 23);
+            this.lblDescription.TabIndex = 15;
+            this.lblDescription.Text = "Description";
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -436,17 +487,26 @@
             this.idDataGridViewTextBoxColumn.HeaderText = "Id";
             this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
             // 
+            // fullNameDataGridViewTextBoxColumn
+            // 
+            this.fullNameDataGridViewTextBoxColumn.DataPropertyName = "FullName";
+            this.fullNameDataGridViewTextBoxColumn.HeaderText = "FullName";
+            this.fullNameDataGridViewTextBoxColumn.Name = "fullNameDataGridViewTextBoxColumn";
+            this.fullNameDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
             // firstNameDataGridViewTextBoxColumn
             // 
             this.firstNameDataGridViewTextBoxColumn.DataPropertyName = "FirstName";
             this.firstNameDataGridViewTextBoxColumn.HeaderText = "FirstName";
             this.firstNameDataGridViewTextBoxColumn.Name = "firstNameDataGridViewTextBoxColumn";
+            this.firstNameDataGridViewTextBoxColumn.Visible = false;
             // 
             // lastNameDataGridViewTextBoxColumn
             // 
             this.lastNameDataGridViewTextBoxColumn.DataPropertyName = "LastName";
             this.lastNameDataGridViewTextBoxColumn.HeaderText = "LastName";
             this.lastNameDataGridViewTextBoxColumn.Name = "lastNameDataGridViewTextBoxColumn";
+            this.lastNameDataGridViewTextBoxColumn.Visible = false;
             // 
             // cellNumberDataGridViewTextBoxColumn
             // 
@@ -466,7 +526,13 @@
             this.emailDataGridViewTextBoxColumn.HeaderText = "Email";
             this.emailDataGridViewTextBoxColumn.Name = "emailDataGridViewTextBoxColumn";
             // 
-            // frmCoordinator
+            // descriptionDataGridViewTextBoxColumn
+            // 
+            this.descriptionDataGridViewTextBoxColumn.DataPropertyName = "Description";
+            this.descriptionDataGridViewTextBoxColumn.HeaderText = "Description";
+            this.descriptionDataGridViewTextBoxColumn.Name = "descriptionDataGridViewTextBoxColumn";
+            // 
+            // frmMajor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -476,14 +542,14 @@
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnAdd);
-            this.Controls.Add(this.pnlCoordinator);
-            this.Controls.Add(this.grdCoordinator);
-            this.Name = "frmCoordinator";
-            this.Text = "Coordinator";
-            this.pnlCoordinator.ResumeLayout(false);
+            this.Controls.Add(this.pnlMajor);
+            this.Controls.Add(this.grdMajor);
+            this.Name = "frmMajor";
+            this.Text = "Major";
+            this.pnlMajor.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pctPhoto)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grdCoordinator)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.coordinatorBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdMajor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.majorBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -495,7 +561,7 @@
         private MetroFramework.Controls.MetroButton btnCancel;
         private MetroFramework.Controls.MetroButton btnEdit;
         private MetroFramework.Controls.MetroButton btnAdd;
-        private MetroFramework.Controls.MetroPanel pnlCoordinator;
+        private MetroFramework.Controls.MetroPanel pnlMajor;
         private MetroFramework.Controls.MetroTextBox txtEmail;
         private MetroFramework.Drawing.Html.HtmlLabel lblEmail;
         private MetroFramework.Controls.MetroButton btnSearch;
@@ -508,13 +574,17 @@
         private MetroFramework.Drawing.Html.HtmlLabel lblFirstName;
         private MetroFramework.Drawing.Html.HtmlLabel lblId;
         private System.Windows.Forms.PictureBox pctPhoto;
-        private MetroFramework.Controls.MetroGrid grdCoordinator;
+        private MetroFramework.Controls.MetroGrid grdMajor;
+        private System.Windows.Forms.BindingSource majorBindingSource;
+        private MetroFramework.Drawing.Html.HtmlLabel lblDescription;
+        private MetroFramework.Controls.MetroTextBox txtDescription;
         private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fullNameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn firstNameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn lastNameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn cellNumberDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn photoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn emailDataGridViewTextBoxColumn;
-        private System.Windows.Forms.BindingSource coordinatorBindingSource;
+        private System.Windows.Forms.DataGridViewTextBoxColumn descriptionDataGridViewTextBoxColumn;
     }
 }
