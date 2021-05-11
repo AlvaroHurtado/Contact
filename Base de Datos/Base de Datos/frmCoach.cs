@@ -23,12 +23,12 @@ namespace Base_de_Datos
         {
             using (DataContext dataContext = new DataContext())
             {
-                coachBindingSource.DataSource = dataContext.Contacts.ToList();
+                coachBindingSource.DataSource = dataContext.Coaches.ToList();
             }
             pnlCoach.Enabled = false;
-            Contact contact = coachBindingSource.Current as Contact;
-            if (contact != null && contact.Photo != null)
-                pctPhoto.Image = Image.FromFile(contact.Photo);
+            Coach coach = coachBindingSource.Current as Coach;
+            if (coach != null && coach.Photo != null)
+                pctPhoto.Image = Image.FromFile(coach.Photo);
             else
                 pctPhoto.Image = null;
         }
