@@ -10,6 +10,8 @@ namespace Base_de_Datos
         public DbSet <Coach> Coaches { get; set; }
         public DbSet <Major> Majors { get; set; }
         public DbSet <Coordinator> Coordinators { get; set; }
+        public DbSet <Adviser> advisers { get; set; }
+        public DbSet <Company> companies { get; set; }
         public DataContext() : base("name=miConexion") 
         { 
         }

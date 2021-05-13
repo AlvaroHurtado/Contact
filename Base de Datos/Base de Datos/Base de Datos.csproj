@@ -66,7 +66,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataContext.cs" />
+    <Compile Include="Entidades\Adviser.cs" />
     <Compile Include="Entidades\Coach.cs" />
+    <Compile Include="Entidades\Company.cs" />
     <Compile Include="Entidades\Contact.cs" />
     <Compile Include="Entidades\Coordinator.cs" />
     <Compile Include="Entidades\Major.cs" />
@@ -77,11 +79,23 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAdviser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdviser.Designer.cs">
+      <DependentUpon>frmAdviser.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCoach.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmCoach.Designer.cs">
       <DependentUpon>frmCoach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCompany.Designer.cs">
+      <DependentUpon>frmCompany.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmContact.cs">
       <SubType>Form</SubType>
@@ -107,19 +121,25 @@
     <Compile Include="frmStudent.Designer.cs">
       <DependentUpon>frmStudent.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202105111647153_Inicial.cs" />
-    <Compile Include="Migrations\202105111647153_Inicial.designer.cs">
-      <DependentUpon>202105111647153_Inicial.cs</DependentUpon>
+    <Compile Include="Migrations\202105132311091_Completo.cs" />
+    <Compile Include="Migrations\202105132311091_Completo.designer.cs">
+      <DependentUpon>202105132311091_Completo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202105111717170_Segunda.cs" />
-    <Compile Include="Migrations\202105111717170_Segunda.designer.cs">
-      <DependentUpon>202105111717170_Segunda.cs</DependentUpon>
+    <Compile Include="Migrations\202105132315014_Segunda.cs" />
+    <Compile Include="Migrations\202105132315014_Segunda.designer.cs">
+      <DependentUpon>202105132315014_Segunda.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAdviser.resx">
+      <DependentUpon>frmAdviser.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmCoach.resx">
       <DependentUpon>frmCoach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCompany.resx">
+      <DependentUpon>frmCompany.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmContact.resx">
       <DependentUpon>FrmContact.cs</DependentUpon>
@@ -133,11 +153,11 @@
     <EmbeddedResource Include="frmStudent.resx">
       <DependentUpon>frmStudent.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202105111647153_Inicial.resx">
-      <DependentUpon>202105111647153_Inicial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202105132311091_Completo.resx">
+      <DependentUpon>202105132311091_Completo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202105111717170_Segunda.resx">
-      <DependentUpon>202105111717170_Segunda.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202105132315014_Segunda.resx">
+      <DependentUpon>202105132315014_Segunda.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
