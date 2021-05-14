@@ -97,11 +97,11 @@
     <Compile Include="frmCompany.Designer.cs">
       <DependentUpon>frmCompany.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmContact.cs">
+    <Compile Include="frmContact.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmContact.Designer.cs">
-      <DependentUpon>FrmContact.cs</DependentUpon>
+    <Compile Include="frmContact.Designer.cs">
+      <DependentUpon>frmContact.cs</DependentUpon>
     </Compile>
     <Compile Include="frmCoordinator.cs">
       <SubType>Form</SubType>
@@ -114,6 +114,12 @@
     </Compile>
     <Compile Include="frmMajor.Designer.cs">
       <DependentUpon>frmMajor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="frmStudent.cs">
       <SubType>Form</SubType>
@@ -141,14 +147,17 @@
     <EmbeddedResource Include="frmCompany.resx">
       <DependentUpon>frmCompany.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmContact.resx">
-      <DependentUpon>FrmContact.cs</DependentUpon>
+    <EmbeddedResource Include="frmContact.resx">
+      <DependentUpon>frmContact.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCoordinator.resx">
       <DependentUpon>frmCoordinator.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMajor.resx">
       <DependentUpon>frmMajor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmStudent.resx">
       <DependentUpon>frmStudent.cs</DependentUpon>
