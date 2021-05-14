@@ -169,7 +169,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\Base_de_Datos.Entidades.Adviser.datasource" />
     <None Include="Properties\DataSources\Base_de_Datos.Entidades.Coach.datasource" />
+    <None Include="Properties\DataSources\Base_de_Datos.Entidades.Company.datasource" />
     <None Include="Properties\DataSources\Base_de_Datos.Entidades.Contact.datasource" />
     <None Include="Properties\DataSources\Base_de_Datos.Entidades.Coordinator.datasource" />
     <None Include="Properties\DataSources\Base_de_Datos.Entidades.Major.datasource" />
