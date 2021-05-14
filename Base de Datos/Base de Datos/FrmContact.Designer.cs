@@ -172,6 +172,7 @@
             this.txtDepartment.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtDepartment.CustomButton.UseSelectable = true;
             this.txtDepartment.CustomButton.Visible = false;
+            this.txtDepartment.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.contactBindingSource, "Department", true));
             this.txtDepartment.Lines = new string[0];
             this.txtDepartment.Location = new System.Drawing.Point(575, 81);
             this.txtDepartment.MaxLength = 32767;
@@ -202,6 +203,7 @@
             this.txtEmail.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtEmail.CustomButton.UseSelectable = true;
             this.txtEmail.CustomButton.Visible = false;
+            this.txtEmail.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.contactBindingSource, "Email", true));
             this.txtEmail.Lines = new string[0];
             this.txtEmail.Location = new System.Drawing.Point(575, 48);
             this.txtEmail.MaxLength = 32767;
@@ -232,6 +234,7 @@
             this.txtCellphoneNumber.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtCellphoneNumber.CustomButton.UseSelectable = true;
             this.txtCellphoneNumber.CustomButton.Visible = false;
+            this.txtCellphoneNumber.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.contactBindingSource, "CellphoneNumber", true));
             this.txtCellphoneNumber.Lines = new string[0];
             this.txtCellphoneNumber.Location = new System.Drawing.Point(575, 13);
             this.txtCellphoneNumber.MaxLength = 32767;
@@ -262,6 +265,7 @@
             this.txtPhoneNumber.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtPhoneNumber.CustomButton.UseSelectable = true;
             this.txtPhoneNumber.CustomButton.Visible = false;
+            this.txtPhoneNumber.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.contactBindingSource, "PhoneNumber", true));
             this.txtPhoneNumber.Lines = new string[0];
             this.txtPhoneNumber.Location = new System.Drawing.Point(261, 117);
             this.txtPhoneNumber.MaxLength = 32767;
@@ -292,6 +296,7 @@
             this.txtLastName.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtLastName.CustomButton.UseSelectable = true;
             this.txtLastName.CustomButton.Visible = false;
+            this.txtLastName.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.contactBindingSource, "LastName", true));
             this.txtLastName.Lines = new string[0];
             this.txtLastName.Location = new System.Drawing.Point(261, 81);
             this.txtLastName.MaxLength = 32767;
@@ -322,6 +327,7 @@
             this.txtFirstName.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtFirstName.CustomButton.UseSelectable = true;
             this.txtFirstName.CustomButton.Visible = false;
+            this.txtFirstName.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.contactBindingSource, "FirstName", true));
             this.txtFirstName.Lines = new string[0];
             this.txtFirstName.Location = new System.Drawing.Point(261, 48);
             this.txtFirstName.MaxLength = 32767;
@@ -370,6 +376,7 @@
             this.txtId.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtId.CustomButton.UseSelectable = true;
             this.txtId.CustomButton.Visible = false;
+            this.txtId.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.contactBindingSource, "Id", true));
             this.txtId.Lines = new string[0];
             this.txtId.Location = new System.Drawing.Point(261, 13);
             this.txtId.MaxLength = 32767;
